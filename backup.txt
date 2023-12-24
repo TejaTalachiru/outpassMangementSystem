@@ -1,0 +1,25 @@
+<div class="status">
+                <div class="status-data">
+                    <label class="data">From : 1-2-2020 To : 5-2-2020 </label><br>
+                    <label class="data" id="city_label"></label><br>
+                    <label class="data" >Transport :bus</label><br></div>
+                    <div class="status-done">
+                        <label class="done">Accepted</label>
+                    </div>
+                </div>  
+                <div class="status-1">
+                    <div class="status-data">
+                        <label class="data">From : 1-2-2020 To : 5-2-2020 </label><br>
+                        <label class="data"> State : Andhra Pradesh City : Nellore </label><br>
+                        <label class="data" >Transport : Car </label><br></div>
+                        <div class="status-done-1">
+                        <label class="done">Pending</label></div>  
+                </div>-->
+                <div class="status-2">
+                    <div class="status-data">
+                        <label class="data">From : 1-2-2020 To : 5-2-2020 </label><br>
+                        <label class="data"> State : Andhra Pradesh City : Nellore </label><br>
+                        <label class="data" >Transport : Car </label><br></div>
+                        <div class="status-done-2">
+                        <label class="done">Rejected</label></div>  
+                </div>

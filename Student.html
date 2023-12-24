@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c0c73cc10c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Student.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>E-Pass</title>
+</head>
+
+<body> 
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Student-Status.html">Status</a></li>
+            <li><a class="on" href="Student.html">Register</a></li>
+            <img src="/images/login-icon.png" class="login-icon" alt="login-icon">
+        </ul>
+    </nav>
+    <section>
+        <div class="img-sec">
+            <img class="img-con" src="./image/rgukt.png">
+            <h1 class="name-header">Outpass <br><label class="name">M</label>anagement
+                <br> System</h1><br>
+            <p class="sub"><label class="sub-name"> E-Pass</label></p>
+        </div>
+    </section>
+    <section class="form"  >
+        <form class="con" id="rform">
+            <div class="con-1">
+                <label class="head">Outpass Register</label>
+            </div>
+            <div class="from">
+                <label class="fromto">From :</label>
+                <input type="date" style="width:250px" id="fd">
+                <label class="fromto">TO :</label>
+                <input type="date" style="width:250px" id="td">
+            </div>
+            <div class="form-1">
+                <input type="text" class="input-state" placeholder=" " required id="st">
+                <label class="state">State</label>
+                <input type="text" class="input-city" placeholder=" " required id="ct">
+                <label class="city">City</label>
+            </div>
+            <div class="form-2">
+                <label class="reason">Reason For OutPass</label>
+                <input type="text" class="input-reason" required id="rs">
+            </div>
+            <div class="form-3">
+                <label class="headings"> Mode of Transportation :</label>
+                <div class="form-3-1">
+                    <div class="icon-1">
+                        <i class='fas fa-motorcycle' style='font-size:48px;color:red' class="icon"></i>
+                        <div class="check-1">
+                            <input type="checkbox" class="check" value="Bike" id="trans">
+                        </div>
+                        <label class="vech">Bike</label>
+                    </div>
+                    <div class="icon-2">
+                        <i class='fas fa-car' style='font-size:48px;color:red' class="icon"></i>
+                        <div class="check-1">
+                            <input type="checkbox" class="check" value="Car" id="trans">
+                        </div>
+                        <label class="vech">Car</label>
+                    </div>
+                    <div class="icon-3">
+                        <i class='fas fa-bus' style='font-size:48px;color:red' class="icon"></i>
+                        <div class="check-1">
+                            <input type="checkbox" class="check" value="Bus" id="trans">
+                        </div>
+                        <label class="vech">Bus</label>
+                    </div>
+                    <div class="icon-4">
+                        <i class='fas fa-plane' style='font-size:48px;color:red' class="icon"></i>
+                        <div class="check-1">
+                            <input type="checkbox" class="check" value="Plane" id="trans">
+                        </div>
+                        <label class="vech">Plane</label>
+                    </div>
+                    <div class="icon-5">
+                        <i class='fas fa-train' style='font-size:48px;color:red' class="icon"></i>
+                        <div class="check-1">
+                            <input type="checkbox" class="check" value="Train" id="trans">
+                        </div>
+                        <label class="vech">Train</label>
+                    </div>
+                    <div class="icon-6">
+                        <i class='fa-solid fa-hashtag' style='font-size:48px;color:red' class="icon"></i>
+                        <div class="check-1">
+                            <input type="checkbox" class="check" value="Other" id="trans">
+                        </div>
+                        <label class="vech">Other</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-4">
+                <label class="proof">Upload Proof :</label>
+                <input type="file" class="input-proof" required id="pf">
+            </div>
+            <div class="submit">
+                <input type="submit" class="input-submit" required>
+            </div>
+        </form>
+    </section>
+    <script src="regis.js" type="text/javascript" defer >
+    </script>
+</body>
+
+
+</html>

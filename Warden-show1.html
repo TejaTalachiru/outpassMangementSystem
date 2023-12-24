@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c0c73cc10c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Warden-show1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+
+    <title>E-Pass</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a  href="Home.html">Home</a></li>
+            <li><a class="on" href="Warden.html">Requests</a></li>
+            <img src="/images/login-icon.png" class="login-icon" alt="login-icon">
+        </ul>
+    </nav>
+    <section>
+        <div class="img-sec">
+            <img class="img-con" src="./image/rgukt.png">
+            <h1 class="name-header">Outpass <br><label class="name">M</label>anagement
+                <br> System</h1><br>
+            <p class="sub"><label class="sub-name"> E-Pass</label></p>
+        </div>
+    </section>
+    <section class="form">
+        <form class="con" action="">
+            <div class="con-1">
+                <div class="con-head">
+                    <label class="head">Student Request</label> 
+            </div>
+           
+            <div>
+                <div id="card2">
+                </div>
+                <button type="button" class="btn btn-success" id="Approve">Approve</button>
+                <button type="button" class="btn btn-danger" id="Reject">Reject</button>
+            </div> 
+            <div class="reasonforr">
+                <input type="text" class="input-state" placeholder=" " required>
+                <label class="state">Reason For Rejection:</label>
+            </div>  
+        </form>
+    </section>
+    <script src="Warden-show.js" type="text/javascript" defer >
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{   
+    background:white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  label.logo{
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    padding: 0 30px;
+    margin-left: -100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: black;
+    font-size: 12px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+  }
+.login-icon{
+    width: 4%;
+    height: 4%;
+    display: flex;
+    margin-top: -5%;
+    align-items: center;
+    margin-left: 95%;
+
+}
+  a.on,a:hover{
+    background: #4CA1AF;
+    color: white;
+    transition: .5s;
+  }
+  a.off,a:hover{
+    background:transparent;
+    color: blue;
+    text-decoration: none;
+}
+.img-sec{
+    background-image: url('bg.svg');
+    background-color: rgb(29, 27, 27);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 33%;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+}
+
+.img-con{
+    width: 0%;
+    height: 0vh;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30%;   
+}
+h1
+{
+    font-size: 1.5rem;
+    margin-left: 20%;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1.name-header {
+    font-size: 3rem;
+    line-height: 3.3rem;
+    color: rgb(255, 252, 252);
+    margin-top: 0;
+
+}
+
+.name {
+    color: rgb(228, 7, 7);
+    border-radius: .5rem;
+
+}
+.sub-name{
+    font-weight: bold;
+    color: white;
+    background: rgb(227, 7,7);
+    padding: .4em;
+    border-radius: .4rem;
+    margin-left: 20%;
+    
+}
+
+
+th{
+    border: 1px solid #999;
+    border-radius: .4rem;
+    padding: 0.5rem;
+    width: 42%;
+    color: aliceblue;
+    background: #606c88;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+tr{
+    color: black;
+    width: 48%;
+    height: 7vh;
+    margin-left: 1%;
+    position: relative;
+    margin-top: 0%;
+    top: -10%;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+td{
+    padding: 1rem;
+}
+
+
+.form{
+    color: black;
+    width: 50%;
+    height: 60vh;
+    margin-left: 40%;
+    position: fixed;
+    margin-top: 8%;
+    border-radius: .4rem;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+.form .label{
+    color:red;
+}
+.con-1{
+    background: rgb(166, 45, 73);
+    border-radius: .4rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.head{
+    font-size: 2rem;
+    color: white;
+}
+.status{
+    color: black;
+    width: 48%;
+    height: 30vh;
+    margin-left: 1%;
+    position: fixed;
+    margin-top: 1%;
+    border-radius: .4rem;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.status-1{
+    color: black;
+    width: 48%;
+    height: 18vh;
+    margin-left: 1%;
+    position: fixed;
+    margin-top: 10%;
+    border-radius: .4rem;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.status-data{
+    margin-left: -55%;
+    margin-top: 5%;
+}
+.status-approve{
+    margin-left: 65%;
+    margin-top: -5%;
+    background: white;
+    padding: .3em .5rem;
+    border: 2px green solid;
+    width: 13%;
+    color: green;
+}
+a.green,a:hover{
+    background:transparent;
+    color: green;
+    text-decoration: none;
+}
+a.red,a:hover{
+    background:transparent;
+    color: red;
+    text-decoration: none;
+}
+.status-reject{
+    margin-left: 80%;
+    margin-top: -5%;
+    background: white;
+    padding: .3em .5rem;
+    border: 2px red solid;
+    width: 10%;
+    color: red;
+}
+.reasonforr{
+    margin-top: 35%;
+    margin-left: 10%;
+}
+input{
+    padding: .5rem .5rem;
+    border-radius: .4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.state{
+    margin-left: -64%;
+    margin-top: 1.3%;
+
+}
+input.input-state{
+    width: 37%;
+    margin-left: 20%;
+
+}

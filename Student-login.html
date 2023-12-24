@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Pass</title>
+    <link rel="stylesheet" href="Student-login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">  
+</head>
+<body>
+    <div class="main-screen">
+        <div class="left">
+            <section class="section-1">
+                <h1 class="name-header">Outpass <br><span class="name">M</span>anagement<span class="name"></span>
+                    <br> System<span class="name"></span></h1>
+                <p class="sub"><span class="sub-name"> E-Pass</span></p>
+            </section>
+        </div>
+        <div class="right">
+            <form id="loginform">
+                <section class="copy">
+                    <h2>Student Login</h2>
+                </section>
+                
+                
+                <div class="input-container_name">
+                    <label>Username</label><br>
+                    <input type="text" name="user_name" placeholder="Enter Name" maxlength="32" minlength="3" id="name1">
+                </div>
+                <label style="color:red"  id="nml"></label>
+
+
+                <div class="input-container-password">
+                    <label>Password</label><br>
+                    <input type="password"  placeholder="Enter Password" id="pass" maxlength="32" minlength="3">
+                    <i class="far fa-eye-slash" onclick="eye()"></i>
+                </div>
+                <label style="color:red" id="pssl"></label>
+
+               
+
+                <div class="input-container-check">
+                    <input type="checkbox">I agree With the Tems & Conditions of The University</p>
+                </div>
+
+                <div class="input-container-buttion">
+                    <button type="submit">Login</button>
+                </div>
+
+                <section clas="copy">
+                    <div class="login-container2">
+                        <p class="alreay">For any queries Visit <a href="https://rguktrkv.ac.in/"><strong>Rgukt</strong></a></p>
+                    </div>
+                </section>
+
+            </form>
+            
+        </div>
+        <div id="footer">
+            <footer>For help,any Queries,Tenders or Contracts Contact <a href="https://rguktrkv.ac.in/Institute.php?view=ContactUs" class="alreay"><bold>Rgukt-ContactUs</bold></a></strong></a>
+         </footer> 
+         </div>
+
+    </div>
+    <script src="Valid.js" type="text/javascript" defer></script>
+</body>
+</html>

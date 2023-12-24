@@ -1,0 +1,173 @@
+body
+{
+    padding:0;
+    margin:0;
+    font-family:'sans-serif';
+    font-weight:500;
+}
+
+h1
+{
+    font-size: 1.5rem;
+    margin-left:2px;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2
+{
+    font-size:1.1rem;
+    font-weight:717;
+}
+a
+{
+    text-decoration:none;
+    color:red;
+   
+}
+a:hover
+{
+    text-decoration:underline;
+}
+section.section-1 {
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 60%;
+    margin-bottom: 8em;
+
+}
+h1.name-header {
+    font-size: 3rem;
+    line-height: 3.3rem;
+    color: rgb(255, 252, 252);
+    margin-top: 2rem;
+
+}
+
+.name {
+    color: rgb(228, 7, 7);
+    border-radius: .5rem;
+
+}
+.sub-name {
+    font-weight: bold;
+    color: white;
+    background: rgb(227, 7,7);
+    padding: .4em;
+    border-radius: .4rem;
+    margin-left: 14px;
+}
+.main-screen
+{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.left
+{
+    background-image: url('bg.svg');
+    background-color: rgb(29, 27, 27);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+    color:antiquewhite;
+    height:100vh;
+    width:30%;
+    align-items: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+
+}
+.left, .right
+{
+    display:flex;
+    justify-content: center;
+    
+}
+.right
+{
+    
+    display:flex;
+    flex-direction: column;
+    margin-top:0px;
+    height: 100vh;
+    position: relative;
+    
+}
+.right .copy
+{
+    color:black;
+    font-weight: 500;
+}
+form input[type="text"],input[type="password"]
+{
+    width: 100%;
+    opacity: 0.7;
+    border-radius: 5px;
+    height:2.7rem;
+    font-size:medium;
+}
+form
+{
+    font-size: 0.79rem;
+    margin-left:75%;
+    margin-top:0%;
+    padding:0px;
+    width:100%;
+    box-sizing: border-box;
+}
+form div
+{
+    margin-top: 1rem;
+}
+form div input
+{
+    margin-top:0.7rem;
+}
+form div button
+{
+    width:100%;
+    height:2.7rem;
+    background-color: rgb(185, 0, 111);
+    opacity: 0.5;
+    font-weight: 900;
+    color: white;
+    font-size:larger;
+    border-radius: 12px;
+}
+footer
+{
+    font-size: small;
+    margin-bottom: 0px;
+}
+.input-container-password
+{
+    position:relative;
+}
+.input-container-password i
+{
+    position:absolute;
+    top:42px;
+    right:16px;
+}
+#footer
+{
+    position:fixed;
+    padding-left:45%;
+    margin-right: 10px;
+    bottom:0;
+    width:100%;
+    height:40px;
+
+}
+#footer a
+{
+    color:rgb(255, 0, 0);
+}
+@media screen and (max-width:480px) {
+    .left
+    {
+        display:none;
+    }
+    
+}

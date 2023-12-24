@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c0c73cc10c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Warden.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>E-Pass</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a  href="Home.html">Home</a></li>
+            <li><a class="on" href="Warden.html">Requests</a></li>
+            <img src="/images/login-icon.png" class="login-icon" alt="login-icon">
+        </ul>
+    </nav>
+    <section>
+        <div class="img-sec">
+            <img class="img-con" src="./image/rgukt.png">
+            <h1 class="name-header">Outpass <br><label class="name">M</label>anagement
+                <br> System</h1><br>
+            <p class="sub"><label class="sub-name"> E-Pass</label></p>
+        </div>
+    </section>
+    <section class="form">
+        <form class="con" action="">
+            <div class="con-1">
+                <div class="con-head">
+                    <label class="head">Outpass Request</label>
+                </div>
+            </div>
+                <table class="table table-stripped">
+                    <tr class="big-info">
+                        <th>StudentID</th>
+                        <th>Details</th>
+                        <th>Click To view</th>
+                    </tr>
+                    <tbody id="myTable">
+                        
+                    </tbody>
+                </table>
+        </form>
+    </section>
+    <script src="Warden.js" type="text/javascript" defer >
+    </script>
+</body>
+</html>
